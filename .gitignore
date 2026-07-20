@@ -1,0 +1,14 @@
+# 临时工作文件
+.work/
+node_modules/
+*.inspect.ndjson
+dashboard-final.png
+smc-*-preview.png
+
+# Excel 临时锁文件
+~$*.xlsx
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
