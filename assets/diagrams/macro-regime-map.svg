@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="800" viewBox="0 0 1100 800" role="img" aria-labelledby="title desc">
+  <title id="title">增长与通胀四象限</title>
+  <desc id="desc">按照增长和通胀的边际方向划分复苏、过热、滞胀和去通胀四种宏观环境</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#111d2f"/>
+    </linearGradient>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#a9b8ce"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei",Arial,sans-serif;fill:#f5f8fc}
+      .sub{font:400 15px "Microsoft YaHei",Arial,sans-serif;fill:#9fb0c8}
+      .q{font:700 26px "Microsoft YaHei",Arial,sans-serif;fill:#fff}
+      .h{font:700 18px "Microsoft YaHei",Arial,sans-serif;fill:#fff}
+      .t{font:400 15px "Microsoft YaHei",Arial,sans-serif;fill:#e0e8f2}
+      .note{font:400 13px "Microsoft YaHei",Arial,sans-serif;fill:#aebdd0}
+    </style>
+  </defs>
+  <rect width="1100" height="800" rx="26" fill="url(#bg2)"/>
+  <text x="55" y="60" class="title">增长 × 通胀：用边际方向定位环境</text>
+  <text x="55" y="89" class="sub">象限描述的是“加速/减速”，不是绝对高低；资产表现还取决于预期、估值、信用与冲击来源。</text>
+
+  <rect x="145" y="135" width="400" height="260" fill="#124235" stroke="#2a7f68" stroke-width="2"/>
+  <rect x="545" y="135" width="400" height="260" fill="#54331e" stroke="#a86937" stroke-width="2"/>
+  <rect x="145" y="395" width="400" height="260" fill="#193b55" stroke="#3775a0" stroke-width="2"/>
+  <rect x="545" y="395" width="400" height="260" fill="#48273f" stroke="#8b4c7b" stroke-width="2"/>
+
+  <text x="175" y="180" class="q">复苏 / Goldilocks</text>
+  <text x="175" y="218" class="h">增长 ↑　通胀 ↓</text>
+  <text x="175" y="258" class="t">政策：宽松空间较大</text>
+  <text x="175" y="288" class="t">常见：股票、信用、BTC 受益</text>
+  <text x="175" y="318" class="t">黄金：看实际利率与美元</text>
+  <text x="175" y="355" class="note">风险：估值过高、通胀重新加速</text>
+
+  <text x="575" y="180" class="q">过热 / 再通胀</text>
+  <text x="575" y="218" class="h">增长 ↑　通胀 ↑</text>
+  <text x="575" y="258" class="t">政策：更紧或高利率更久</text>
+  <text x="575" y="288" class="t">常见：商品/周期相对占优</text>
+  <text x="575" y="318" class="t">长久期资产估值承压</text>
+  <text x="575" y="355" class="note">风险：实际利率和美元快速上升</text>
+
+  <text x="175" y="440" class="q">去通胀 / 衰退</text>
+  <text x="175" y="478" class="h">增长 ↓　通胀 ↓</text>
+  <text x="175" y="518" class="t">政策：可能转向宽松</text>
+  <text x="175" y="548" class="t">国债可能受益</text>
+  <text x="175" y="578" class="t">风险资产取决于信用是否稳定</text>
+  <text x="175" y="615" class="note">关键：收益率下跌是好消息还是危机？</text>
+
+  <text x="575" y="440" class="q">滞胀</text>
+  <text x="575" y="478" class="h">增长 ↓　通胀 ↑</text>
+  <text x="575" y="518" class="t">政策：增长与物价之间两难</text>
+  <text x="575" y="548" class="t">利润率和信用承压</text>
+  <text x="575" y="578" class="t">黄金/商品取决于冲击结构</text>
+  <text x="575" y="615" class="note">风险：供给冲击持续、预期失锚</text>
+
+  <path d="M115 655V135" stroke="#a9b8ce" stroke-width="3" marker-end="url(#a2)"/>
+  <path d="M145 690H965" stroke="#a9b8ce" stroke-width="3" marker-end="url(#a2)"/>
+  <text x="50" y="410" class="h" transform="rotate(-90 50 410)">通胀边际上升</text>
+  <text x="470" y="735" class="h">增长边际上升</text>
+  <text x="145" y="770" class="note">使用：先给增长和通胀定方向，再检查政策预期、实际利率、美元、信用利差和价格结构。</text>
+</svg>
