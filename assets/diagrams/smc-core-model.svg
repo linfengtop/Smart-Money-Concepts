@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">SMC 核心入场模型</title>
+  <desc id="desc">展示多头和空头的流动性扫取、位移、市场结构转换、FVG 回踩及目标。</desc>
+  <defs>
+    <marker id="aGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0f766e"/></marker>
+    <marker id="aRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b91c1c"/></marker>
+  </defs>
+  <rect width="1200" height="610" fill="#f8fafc"/>
+  <text x="50" y="50" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#0f172a">核心模型：位置优先，确认后入场</text>
+  <rect x="45" y="82" width="535" height="470" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="72" y="122" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#0f766e">多头：扫 SSL → MSS → 回踩 FVG</text>
+  <line x1="80" y1="395" x2="545" y2="395" stroke="#64748b" stroke-dasharray="9 7"/><text x="82" y="420" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#475569">Sell-side Liquidity（前低/等低）</text>
+  <line x1="80" y1="190" x2="545" y2="190" stroke="#64748b" stroke-dasharray="9 7"/><text x="82" y="179" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#475569">目标 BSL</text>
+  <polyline points="85,300 145,250 205,340 270,386 305,435 335,365 390,260 430,300 468,275 540,185" fill="none" stroke="#0f766e" stroke-width="6" stroke-linejoin="round" marker-end="url(#aGreen)"/>
+  <circle cx="305" cy="435" r="7" fill="#b91c1c"/><text x="265" y="462" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#b91c1c">① Sweep</text>
+  <line x1="335" y1="340" x2="405" y2="340" stroke="#0f766e" stroke-width="3"/><text x="342" y="331" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">② MSS</text>
+  <rect x="383" y="262" width="92" height="48" fill="#14b8a6" opacity="0.22" stroke="#0f766e"/><text x="394" y="290" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f172a">③ FVG</text>
+  <circle cx="430" cy="300" r="7" fill="#0f766e"/><text x="438" y="327" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f172a">④ 首次回踩入场</text>
+  <line x1="430" y1="455" x2="430" y2="312" stroke="#b91c1c" stroke-width="2" stroke-dasharray="6 5"/><text x="438" y="447" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">SL：扫低点外</text>
+  <text x="82" y="520" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">无 Sweep、无位移或无 MSS：不做</text>
+  <rect x="620" y="82" width="535" height="470" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="647" y="122" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">空头：扫 BSL → MSS → 回踩 FVG</text>
+  <line x1="655" y1="235" x2="1120" y2="235" stroke="#64748b" stroke-dasharray="9 7"/><text x="657" y="224" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#475569">Buy-side Liquidity（前高/等高）</text>
+  <line x1="655" y1="465" x2="1120" y2="465" stroke="#64748b" stroke-dasharray="9 7"/><text x="657" y="491" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#475569">目标 SSL</text>
+  <polyline points="660,330 720,375 780,275 845,240 880,190 910,265 965,365 1005,325 1043,350 1115,468" fill="none" stroke="#b91c1c" stroke-width="6" stroke-linejoin="round" marker-end="url(#aRed)"/>
+  <circle cx="880" cy="190" r="7" fill="#0f766e"/><text x="840" y="171" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#0f766e">① Sweep</text>
+  <line x1="910" y1="290" x2="980" y2="290" stroke="#b91c1c" stroke-width="3"/><text x="917" y="312" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">② MSS</text>
+  <rect x="958" y="315" width="92" height="48" fill="#ef4444" opacity="0.18" stroke="#b91c1c"/><text x="969" y="343" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f172a">③ FVG</text>
+  <circle cx="1005" cy="325" r="7" fill="#b91c1c"/><text x="1013" y="302" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f172a">④ 首次回踩入场</text>
+  <line x1="1005" y1="180" x2="1005" y2="313" stroke="#b91c1c" stroke-width="2" stroke-dasharray="6 5"/><text x="1013" y="174" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">SL：扫高点外</text>
+  <text x="657" y="520" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">目标必须是可识别的对侧流动性</text>
+</svg>

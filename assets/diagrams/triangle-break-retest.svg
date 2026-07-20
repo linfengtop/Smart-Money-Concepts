@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">收敛三角突破与回踩</title>
+  <desc id="desc">展示对称三角向上和向下突破后的回踩确认，以及三角中部不交易。</desc>
+  <defs>
+    <marker id="gArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0f766e"/></marker>
+    <marker id="rArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b91c1c"/></marker>
+  </defs>
+  <rect width="1200" height="690" fill="#f8fafc"/>
+  <text x="50" y="50" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#0f172a">收敛三角：压缩只说明蓄势，方向由有效突破决定</text>
+  <rect x="45" y="82" width="535" height="480" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="72" y="123" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#0f766e">向上突破 → 回踩上沿多</text>
+  <line x1="90" y1="155" x2="410" y2="300" stroke="#64748b" stroke-width="3"/>
+  <line x1="90" y1="445" x2="410" y2="300" stroke="#64748b" stroke-width="3"/>
+  <polyline points="95,170 145,425 205,205 260,390 315,245 365,345 405,300 455,190 495,245 545,105" fill="none" stroke="#334155" stroke-width="6" stroke-linejoin="round" marker-end="url(#gArrow)"/>
+  <text x="205" y="315" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#64748b">中部不交易</text>
+  <circle cx="455" cy="190" r="7" fill="#0f766e"/><text x="420" y="168" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">① 位移突破</text>
+  <circle cx="495" cy="245" r="7" fill="#0f766e"/><text x="450" y="275" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">② 回踩承接</text>
+  <line x1="495" y1="255" x2="495" y2="300" stroke="#b91c1c" stroke-width="2"/><text x="503" y="315" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#b91c1c">SL：回踩低点外</text>
+  <text x="82" y="505" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">过滤：突破同时打破邻近 LH，最好伴随成交量/位移扩张</text>
+  <text x="82" y="532" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">目标：上方 BSL；量度目标仅作参考</text>
+
+  <rect x="620" y="82" width="535" height="480" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="647" y="123" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">向下跌破 → 回抽下沿空</text>
+  <line x1="665" y1="155" x2="985" y2="300" stroke="#64748b" stroke-width="3"/>
+  <line x1="665" y1="445" x2="985" y2="300" stroke="#64748b" stroke-width="3"/>
+  <polyline points="670,170 720,425 780,205 835,390 890,245 940,345 980,300 1030,410 1070,355 1120,520" fill="none" stroke="#334155" stroke-width="6" stroke-linejoin="round" marker-end="url(#rArrow)"/>
+  <text x="780" y="315" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#64748b">中部不交易</text>
+  <circle cx="1030" cy="410" r="7" fill="#b91c1c"/><text x="990" y="440" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">① 位移跌破</text>
+  <circle cx="1070" cy="355" r="7" fill="#b91c1c"/><text x="1022" y="335" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">② 回抽承压</text>
+  <line x1="1070" y1="345" x2="1070" y2="305" stroke="#b91c1c" stroke-width="2"/><text x="1078" y="297" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#b91c1c">SL：回抽高点外</text>
+  <text x="657" y="505" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">过滤：跌破同时打破邻近 HL，避免只看影线刺破</text>
+  <text x="657" y="532" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">目标：下方 SSL；量度目标仅作参考</text>
+  <rect x="45" y="590" width="1110" height="62" rx="14" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="70" y="628" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#9a3412">假突破识别：突破后迅速收回三角内部，且没有后续接受或结构延续时，不追单；等待反向结构确认。</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">区间突破回踩与双顶双底</title>
+  <desc id="desc">上方展示水平区间突破回踩，下方展示双顶扫流动性做空与双底扫流动性做多。</desc>
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0f766e"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b91c1c"/></marker>
+  </defs>
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="50" y="50" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#0f172a">常规结构：关键不是形状，而是突破、接受与失效点</text>
+  <rect x="45" y="82" width="1110" height="255" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="72" y="122" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#0f172a">水平区间：突破回踩</text>
+  <line x1="90" y1="165" x2="880" y2="165" stroke="#64748b" stroke-width="3"/>
+  <line x1="90" y1="285" x2="880" y2="285" stroke="#64748b" stroke-width="3"/>
+  <polyline points="100,260 165,180 230,270 300,175 370,275 440,180 510,270 580,172 650,110 720,165 790,120 865,75" fill="none" stroke="#0f766e" stroke-width="6" stroke-linejoin="round" marker-end="url(#ag)"/>
+  <text x="100" y="225" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#64748b">区间内部：等待</text>
+  <circle cx="650" cy="110" r="7" fill="#0f766e"/><text x="610" y="92" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">① 突破接受</text>
+  <circle cx="720" cy="165" r="7" fill="#0f766e"/><text x="690" y="195" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">② 回踩支撑</text>
+  <text x="915" y="165" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">多：上破阻力 → 回踩不破</text>
+  <text x="915" y="200" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">空：下破支撑 → 回抽不过</text>
+  <text x="915" y="235" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">影线刺破后回到区间：不追</text>
+
+  <rect x="45" y="365" width="535" height="285" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="72" y="405" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">双顶/等高：先扫 BSL，再确认空</text>
+  <line x1="85" y1="475" x2="545" y2="475" stroke="#64748b" stroke-dasharray="8 6"/>
+  <polyline points="90,590 170,475 245,560 325,470 365,438 410,525 475,560 540,625" fill="none" stroke="#334155" stroke-width="6" stroke-linejoin="round" marker-end="url(#ar)"/>
+  <circle cx="365" cy="438" r="7" fill="#b91c1c"/><text x="325" y="425" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">扫等高</text>
+  <line x1="250" y1="560" x2="430" y2="560" stroke="#b91c1c" stroke-dasharray="7 5"/><text x="260" y="590" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">跌破颈线/MSS 后回抽空</text>
+
+  <rect x="620" y="365" width="535" height="285" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="647" y="405" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#0f766e">双底/等低：先扫 SSL，再确认多</text>
+  <line x1="660" y1="545" x2="1120" y2="545" stroke="#64748b" stroke-dasharray="8 6"/>
+  <polyline points="665,430 745,545 820,460 900,550 940,582 985,495 1050,460 1115,395" fill="none" stroke="#334155" stroke-width="6" stroke-linejoin="round" marker-end="url(#ag)"/>
+  <circle cx="940" cy="582" r="7" fill="#0f766e"/><text x="900" y="615" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">扫等低</text>
+  <line x1="825" y1="460" x2="1005" y2="460" stroke="#0f766e" stroke-dasharray="7 5"/><text x="835" y="448" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">突破颈线/MSS 后回踩多</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">通道跌破回抽与突破回踩</title>
+  <desc id="desc">左侧是上升通道跌破后回抽承压做空，右侧是下降通道突破后回踩支撑做多。</desc>
+  <defs>
+    <marker id="downArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#b91c1c"/></marker>
+    <marker id="upArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0f766e"/></marker>
+  </defs>
+  <rect width="1200" height="610" fill="#f8fafc"/>
+  <text x="50" y="50" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#0f172a">通道交易：突破不是入场，回抽确认才是候选</text>
+  <rect x="45" y="82" width="535" height="475" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="72" y="123" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">上升通道跌破 → 回抽承压空</text>
+  <line x1="85" y1="420" x2="430" y2="175" stroke="#94a3b8" stroke-width="3"/>
+  <line x1="85" y1="310" x2="430" y2="65" stroke="#94a3b8" stroke-width="3"/>
+  <polyline points="95,392 145,270 195,335 250,205 305,270 365,145 410,205 450,330 485,275 540,455" fill="none" stroke="#334155" stroke-width="6" stroke-linejoin="round" marker-end="url(#downArrow)"/>
+  <line x1="375" y1="220" x2="505" y2="315" stroke="#b91c1c" stroke-dasharray="8 6"/>
+  <circle cx="450" cy="330" r="7" fill="#b91c1c"/><text x="415" y="360" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">① 跌破下轨/HL</text>
+  <circle cx="485" cy="275" r="7" fill="#b91c1c"/><text x="435" y="255" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#b91c1c">② 回抽承压</text>
+  <line x1="485" y1="235" x2="485" y2="265" stroke="#b91c1c" stroke-width="2"/><text x="493" y="235" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#b91c1c">SL：回抽高点外</text>
+  <text x="82" y="505" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">确认：实体接受在通道外 + 回抽无法重回通道</text>
+  <text x="82" y="532" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">目标：前低、等低或外部 SSL</text>
+
+  <rect x="620" y="82" width="535" height="475" rx="18" fill="#fff" stroke="#cbd5e1"/>
+  <text x="647" y="123" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#0f766e">下降通道突破 → 回踩支撑多</text>
+  <line x1="660" y1="120" x2="1005" y2="365" stroke="#94a3b8" stroke-width="3"/>
+  <line x1="660" y1="230" x2="1005" y2="475" stroke="#94a3b8" stroke-width="3"/>
+  <polyline points="670,145 720,270 770,205 825,335 880,270 940,395 985,330 1025,205 1060,260 1115,85" fill="none" stroke="#334155" stroke-width="6" stroke-linejoin="round" marker-end="url(#upArrow)"/>
+  <line x1="950" y1="350" x2="1080" y2="255" stroke="#0f766e" stroke-dasharray="8 6"/>
+  <circle cx="1025" cy="205" r="7" fill="#0f766e"/><text x="970" y="184" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">① 突破上轨/LH</text>
+  <circle cx="1060" cy="260" r="7" fill="#0f766e"/><text x="1015" y="290" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#0f766e">② 回踩支撑</text>
+  <line x1="1060" y1="270" x2="1060" y2="310" stroke="#b91c1c" stroke-width="2"/><text x="1068" y="322" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#b91c1c">SL：回踩低点外</text>
+  <text x="657" y="505" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">确认：实体接受在通道外 + 回踩无法跌回通道</text>
+  <text x="657" y="532" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#475569">目标：前高、等高或外部 BSL</text>
+</svg>
